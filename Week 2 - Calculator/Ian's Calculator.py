@@ -15,7 +15,7 @@ if i == "pythagoras theorem":
 	b = b*b
 	
 	ans = a+b
-	ans = math.sqrt(c)
+	ans = math.sqrt(ans)
 	print("the answer is")
 	print(ans)
 
