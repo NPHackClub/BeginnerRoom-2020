@@ -2,7 +2,7 @@ import math
 
 x = input("Which side are you trying to find? ")
 
-if x == "c" or x == "c":
+if x == "c" or x == "C":
     a = int(input("Side a: "))
     b = int(input("Side b: "))
     c = math.sqrt(a**2+b**2)
