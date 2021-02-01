@@ -1,3 +1,5 @@
-down="d r o p"
-up="D R O P"
-print (down[0],up[2],down[4],up[6])
+word = input("type a 4 letter word")
+up = word.upper()
+down = word.lower()
+
+print (up[1],down[2],up[3],down[4])
