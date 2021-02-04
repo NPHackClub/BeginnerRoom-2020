@@ -1,0 +1,6 @@
+import math
+
+l = int(input("Type Width"))
+w = int(input("Type Length"))
+
+print(l*w)
