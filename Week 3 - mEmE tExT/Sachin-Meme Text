@@ -1,0 +1,26 @@
+print(" ")
+print(" ")
+print (" ")
+
+
+print("Turn Any Word (10 Characters or Less) Into A Meme")
+print(" ")
+
+userword = raw_input("Type A Word To Be mEmEiFiEd: ")
+print(" ")
+
+print("Original Word: ") + userword
+
+print(" ")
+print(" ")
+
+
+print("Memeified Version of Inputted Word:   ") + (userword.lower()[0:1])+(userword.upper()[1:2])+(userword.lower()[2:3])\
+    +(userword.upper()[3:4])+(userword.lower()[4:5])+(userword.upper()[5:6])+(userword.lower()[6:7])+(userword.upper()[7:8])\
+        +(userword.lower()[8:9])+(userword.upper()[9:10])\
+            +(userword[10:])
+
+
+print(" ")
+print(" ")
+print (" ")
