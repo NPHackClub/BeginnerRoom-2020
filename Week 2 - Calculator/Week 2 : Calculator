@@ -1,0 +1,5 @@
+import math
+print(l*w)
+l = int(input("Type length of rectangle: "))
+w = int(input("Type length of rectangle: "))
+num = input()
