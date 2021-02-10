@@ -1,0 +1,28 @@
+# string (text)
+a = "Hello World"
+ 
+# interger (whole number)
+b = 70
+
+#float (integer with decimal numbers)
+c = 234.90
+
+ishani = "NPSS" 
+print(ishani[0:20])
+
+alpha =  "Hack Club"
+print(alpha)
+
+import math 
+x = 7
+y= 9
+print(x**y)
+print(math.sqrt(x**y)) 
+
+ishani = "NPSS student"
+print(ishani[0:20])
+# Output is "Student"
+
+y = "meme"
+print((y[0:1]).upper() + (y[1]) + (y[2]).upper() + (y[3]) + (y[0]) +
+(y[1]).upper() + (y[2]) + (y[3]).upper())
