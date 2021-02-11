@@ -1,0 +1,12 @@
+song1 = (input("choose your first song:"))
+song2 = (input("choose your second song:"))
+thirdsong = (input("choose your third song:"))
+playlist = []
+playlistfinal = []
+playlist.append(song1)
+playlist.append(song2)
+playlist.sort(reverse=True)
+playlistfinal.append(thirdsong)
+playlist.extend(playlistfinal)
+playlist.sort (reverse= True)
+print (playlist)
