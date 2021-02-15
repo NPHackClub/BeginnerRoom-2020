@@ -1,0 +1,22 @@
+print('you are supposed to feed Jerry the baboon a banana.')
+food = input('What will you feed Jerry: ')
+
+if food == 'banana':
+	print('Good job, jerry is now MONKE')
+
+else:
+	print('you have failed you fool')
+	print('get learned with math foolish person')
+
+	a = int(input('Select number 1: '))
+	b = int(input('Select numbee 2: '))
+
+	c = a*b
+	d = int(input('Now multiply the two numbers together: '))
+	print(c)
+	print('all that math could have been avoided if you just respected MONKE you know')
+	print('where you even right with the math?')
+	print('your answer was')
+	print(d)
+	print('the correct answer was')
+	print(c)
