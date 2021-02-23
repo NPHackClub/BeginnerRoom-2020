@@ -42,6 +42,8 @@ print(' ')
 
 print(' ')
 
+
+print('________________Vehicles Insured________________')
 np_hackclub = {'Enter car #1 owner name' : 'Sam',
                'Enter car #1 brand name' : 'Porche',
                'Enter car #1 model' : 'Taycan.'
@@ -61,15 +63,7 @@ np_hackclub.update({'Enter car #3 owner name' : 'Jaimil.'})
 np_hackclub.update({'Enter car #3 brand name' : 'McLaren.'})
 
 np_hackclub.update({'Enter car #3 model' : '720 S.'})
-
 print (np_hackclub)
-
-print(' ')
-
-print('________________Vehicles Insured________________')
-
-print(np_hackclub)
-
 print('________________________________________________')
 
 print(' ')
