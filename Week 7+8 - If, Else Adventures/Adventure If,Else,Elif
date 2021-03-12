@@ -1,0 +1,17 @@
+run = 2
+walk = 10
+jog = 5
+hop = 12
+bicycle = 7
+if run > walk and run > jog:
+ print("run is largest number")
+elif 7 > 12 and 7 > 5:
+  print("bicycle is largest number") 
+elif 10<12 and 2>12: 
+  print("run is the lowest number")
+elif 2<10 and 7>10:
+  print("walk is the greater than run and bicycle")
+elif 12<5 and 12<12:
+  print("hop is the lowest number")  
+else: 
+  print("run is the lowest number and hop is the highest number")
