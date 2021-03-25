@@ -1,0 +1,46 @@
+print ("Welcome to the Exponent Calculator")
+
+print ("                                  ")
+
+
+n= word = int(input("type a number: "))
+
+i=0
+
+numbers =[1,2,3,4,5,6,7,8,9,10]
+
+for x in numbers:
+  while i==0:
+    print ("Your number raised to the 1st exponent is equal to:")
+    break
+  while i==1:
+    print ("Your number raised to the 2nd exponent is equal to:")
+    break
+  while i==2:
+    print ("Your number raised to the 3rd exponent is equal to:")
+    break
+  while i==3:
+    print ("Your number raised to the 4th exponent is equal to:")
+    break
+  while i==4:
+    print ("Your number raised to the 5th exponent is equal to:")
+    break
+  while i==5:
+    print ("Your number raised to the 6th exponent is equal to:")
+    break
+  while i==6:
+    print ("Your number raised to the 7th exponent is equal to:")
+    break
+  while i==7:
+    print ("Your number raised to the 8th exponent is equal to:")
+    break
+  while i==8:
+    print ("Your number raised to the 9th exponent is equal to:")
+    break
+  while i==9:
+    print ("Your number raised to the 10th exponent is equal to:")
+    break
+  print (n**numbers[i])
+  print ("                                  ")
+  i+=1
+
